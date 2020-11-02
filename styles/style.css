@@ -268,7 +268,6 @@
 }
 
 .footer{
-  /*border: 1px solid red;*/
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
@@ -278,7 +277,6 @@
   justify-content: center;
 }
 .footer__columns{
-  /*border: 1px solid red;*/
   display: flex;
   width: 90%;
   justify-content: space-between;  
@@ -291,12 +289,13 @@
   flex-basis: 711px;
   justify-content: space-between;
 }
+/*
 .footer__column_content_info{
 
 }
 .footer__columns_content_social{
 
-}
+}*/
 .footer__author{
   margin: 18px 0;
   line-height: 25px;
