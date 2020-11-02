@@ -1,8 +1,8 @@
-h1, h2, h3, h4 {
+.title {
   margin: 0;
   padding: 0;
 }
-ul{
+.list{
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -282,26 +282,20 @@ ul{
   display: flex;
   width: 90%;
   justify-content: space-between;  
-
 }
-.footer__columns_content_copyright{
-  /*border: 1px solid yellow;*/
-  flex-basis: 711px;
+.footer__column{
   display: flex;
   flex-direction: column;
+}
+.footer__column_content_copyright{
+  flex-basis: 711px;
   justify-content: space-between;
 }
-.footer__columns_content_info{
-  /*border: 1px solid green;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.footer__column_content_info{
+
 }
 .footer__columns_content_social{
-  /*border: 1px solid blue;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+
 }
 .footer__author{
   margin: 18px 0;
@@ -316,9 +310,11 @@ ul{
   font-size: 18px;
   font-weight: bold;
 }
+.footer__column-links{
+  margin-top: 0;
+}
 .footer__column-links_style{
   color: white;
-  margin-top: 0;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
