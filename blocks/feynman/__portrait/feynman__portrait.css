@@ -1,0 +1,10 @@
+.feynman__portrait{
+    height: 637px;
+    width: 867px;
+    background-image: url("../images/feynman.png");
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
